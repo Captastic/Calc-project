@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/calculations/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OperatorSwitch.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OperatorSwitch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/calculations/OperatorSwitch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="462">
+              <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -75,16 +75,24 @@
       <file leaf-file-name="Calculations.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/calculations/Calculations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            <state relative-caret-position="547">
+              <caret line="59" column="46" lean-forward="false" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1091#1092#0" expanded="true" />
-                <element signature="e#1147#1148#0" expanded="true" />
-                <element signature="e#1204#1205#0" expanded="true" />
-                <element signature="e#1258#1259#0" expanded="true" />
-                <element signature="e#1318#1319#0" expanded="true" />
-                <element signature="e#1371#1372#0" expanded="true" />
+                <element signature="e#1096#1097#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1210#1211#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
+                <element signature="e#1325#1326#0" expanded="true" />
+                <element signature="e#1378#1379#0" expanded="true" />
+                <element signature="e#1433#1434#0" expanded="true" />
+                <element signature="e#1480#1481#0" expanded="true" />
+                <element signature="e#1532#1533#0" expanded="true" />
+                <element signature="e#1585#1586#0" expanded="true" />
+                <element signature="e#1639#1640#0" expanded="true" />
+                <element signature="e#1692#1693#0" expanded="true" />
+                <element signature="e#1747#1748#0" expanded="true" />
+                <element signature="e#1800#1801#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,8 +101,8 @@
       <file leaf-file-name="CalculationsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/capriotti/anthony/calculations/CalculationsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="61" column="58" lean-forward="false" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
+            <state relative-caret-position="1350">
+              <caret line="90" column="41" lean-forward="false" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,11 +128,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/capriotti/anthony/calculations/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/capriotti/anthony/calculations/UserInput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/capriotti/anthony/calculations/OperatorSwitch.java" />
         <option value="$PROJECT_DIR$/src/main/java/capriotti/anthony/calculations/Calculations.java" />
         <option value="$PROJECT_DIR$/src/test/java/capriotti/anthony/calculations/CalculationsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/capriotti/anthony/calculations/OperatorSwitch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/capriotti/anthony/calculations/Main.java" />
       </list>
     </option>
   </component>
@@ -142,10 +150,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
-    <option name="y" value="42" />
-    <option name="width" value="982" />
-    <option name="height" value="677" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -261,29 +267,10 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.CalculationsTest.absoluteValue">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="capriotti.anthony.calculations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="capriotti.anthony.calculations.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Calculations" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="CalculationsTest.exponentsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CalculationsTest.tangentTest">
+    <configuration default="false" name="CalculationsTest.inverseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="capriotti.anthony.calculations.*" />
@@ -295,7 +282,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="capriotti.anthony.calculations" />
       <option name="MAIN_CLASS_NAME" value="capriotti.anthony.calculations.CalculationsTest" />
-      <option name="METHOD_NAME" value="exponentsTest" />
+      <option name="METHOD_NAME" value="inverseTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -309,7 +296,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CalculationsTest.squaredTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CalculationsTest.additionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="capriotti.anthony.calculations.*" />
@@ -321,7 +308,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="capriotti.anthony.calculations" />
       <option name="MAIN_CLASS_NAME" value="capriotti.anthony.calculations.CalculationsTest" />
-      <option name="METHOD_NAME" value="squaredTest" />
+      <option name="METHOD_NAME" value="additionTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -335,7 +322,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CalculationsTest.squareRootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CalculationsTest.sineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="capriotti.anthony.calculations.*" />
@@ -347,7 +334,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="capriotti.anthony.calculations" />
       <option name="MAIN_CLASS_NAME" value="capriotti.anthony.calculations.CalculationsTest" />
-      <option name="METHOD_NAME" value="squareRootTest" />
+      <option name="METHOD_NAME" value="sineTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -361,7 +348,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CalculationsTest.absoluteValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CalculationsTest.cosineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="capriotti.anthony.calculations.*" />
@@ -373,7 +360,33 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="capriotti.anthony.calculations" />
       <option name="MAIN_CLASS_NAME" value="capriotti.anthony.calculations.CalculationsTest" />
-      <option name="METHOD_NAME" value="absoluteValue" />
+      <option name="METHOD_NAME" value="cosineTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CalculationsTest.tangentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="capriotti.anthony.calculations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Calculations" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="capriotti.anthony.calculations" />
+      <option name="MAIN_CLASS_NAME" value="capriotti.anthony.calculations.CalculationsTest" />
+      <option name="METHOD_NAME" value="tangentTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -761,19 +774,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CalculationsTest.exponentsTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CalculationsTest.squaredTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CalculationsTest.squareRootTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CalculationsTest.absoluteValue" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CalculationsTest.inverseTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CalculationsTest.additionTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CalculationsTest.sineTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CalculationsTest.cosineTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CalculationsTest.tangentTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CalculationsTest.absoluteValue" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CalculationsTest.squareRootTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CalculationsTest.squaredTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CalculationsTest.exponentsTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CalculationsTest.tangentTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CalculationsTest.cosineTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CalculationsTest.sineTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CalculationsTest.additionTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CalculationsTest.inverseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -787,7 +800,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1484592354777</updated>
-      <workItem from="1484592358198" duration="12077000" />
+      <workItem from="1484592358198" duration="14158000" />
     </task>
     <servers />
   </component>
@@ -795,36 +808,36 @@
     <history-entry file="CalculationsTest_absoluteValue - 2017.01.16 at 17h 31m 46s.xml">
       <configuration name="CalculationsTest.absoluteValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculationsTest_additionTest - 2017.01.16 at 14h 29m 08s.xml">
+    <history-entry file="CalculationsTest_additionTest - 2017.01.16 at 17h 39m 12s.xml">
       <configuration name="CalculationsTest.additionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculationsTest_divisionTest - 2017.01.16 at 14h 38m 59s.xml">
-      <configuration name="CalculationsTest.divisionTest" configurationId="JUnit" />
+    <history-entry file="CalculationsTest_additionTest - 2017.01.16 at 17h 42m 02s.xml">
+      <configuration name="CalculationsTest.additionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculationsTest_divisionTest - 2017.01.16 at 14h 39m 20s.xml">
-      <configuration name="CalculationsTest.divisionTest" configurationId="JUnit" />
+    <history-entry file="CalculationsTest_cosineTest - 2017.01.16 at 18h 05m 48s.xml">
+      <configuration name="CalculationsTest.cosineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculationsTest_exponentsTest - 2017.01.16 at 15h 14m 17s.xml">
-      <configuration name="CalculationsTest.exponentsTest" configurationId="JUnit" />
+    <history-entry file="CalculationsTest_inverseTest - 2017.01.16 at 17h 38m 56s.xml">
+      <configuration name="CalculationsTest.inverseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculationsTest_multiplicationTest - 2017.01.16 at 14h 37m 11s.xml">
-      <configuration name="CalculationsTest.multiplicationTest" configurationId="JUnit" />
+    <history-entry file="CalculationsTest_inversetest - 2017.01.16 at 17h 36m 55s.xml">
+      <configuration name="CalculationsTest.inversetest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculationsTest_squareRootTest - 2017.01.16 at 17h 20m 29s.xml">
-      <configuration name="CalculationsTest.squareRootTest" configurationId="JUnit" />
+    <history-entry file="CalculationsTest_sineTest - 2017.01.16 at 18h 01m 34s.xml">
+      <configuration name="CalculationsTest.sineTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CalculationsTest_squareRootTest - 2017.01.16 at 17h 20m 44s.xml">
       <configuration name="CalculationsTest.squareRootTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculationsTest_squaredTest - 2017.01.16 at 17h 15m 57s.xml">
-      <configuration name="CalculationsTest.squaredTest" configurationId="JUnit" />
+    <history-entry file="CalculationsTest_squareRootTest - 2017.01.16 at 17h 37m 08s.xml">
+      <configuration name="CalculationsTest.squareRootTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculationsTest_subtractionTest - 2017.01.16 at 14h 36m 06s.xml">
-      <configuration name="CalculationsTest.subtractionTest" configurationId="JUnit" />
+    <history-entry file="CalculationsTest_tangentTest - 2017.01.16 at 18h 09m 32s.xml">
+      <configuration name="CalculationsTest.tangentTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12077000" />
+    <option name="totallyTimeSpent" value="14158000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -836,7 +849,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="42" width="982" height="677" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -848,13 +861,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4042934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4034091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26702127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20274636" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -901,16 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/calculations/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/calculations/UserInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -923,35 +926,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/calculations/Calculations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        <state relative-caret-position="547">
+          <caret line="59" column="46" lean-forward="false" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#1258#1259#0" expanded="true" />
-            <element signature="e#1318#1319#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/capriotti/anthony/calculations/CalculationsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="61" column="58" lean-forward="false" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1480#1481#0" expanded="true" />
+            <element signature="e#1532#1533#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#1692#1693#0" expanded="true" />
+            <element signature="e#1747#1748#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/calculations/OperatorSwitch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        <state relative-caret-position="462">
+          <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/capriotti/anthony/calculations/CalculationsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="90" column="41" lean-forward="false" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/calculations/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

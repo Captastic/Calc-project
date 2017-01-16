@@ -48,13 +48,26 @@ public class OperatorSwitch {
                 calculations.squareRoot(first);
                 getUpdatedDisplay();
                 break;
-            case "Abs":
+            case "Absolute":
                 calculations.absoluteValue(first);
+                getUpdatedDisplay();
+                break;
+            case "Inverse":
+                calculations.inverse(first);
+                getUpdatedDisplay();
+                break;
+            case "Sine":
+                calculations.sine(first);
+                getUpdatedDisplay();
+                break;
+            case "Cosine":
+                calculations.cosine(first);
                 getUpdatedDisplay();;
                 break;
-
-
-
+            case "Tangent":
+                calculations.tangent(first);
+                getUpdatedDisplay();
+                break;
             default:
                 System.out.println("You didn't say the magic word");
                 getOperator();
