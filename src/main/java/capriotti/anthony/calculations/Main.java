@@ -9,11 +9,10 @@ import static capriotti.anthony.calculations.UserInput.*;
  */
 public class Main {
     public static void main (String[] args){
-        UserInput userInput = new UserInput();
 
-        userInput.input();
-        OperatorSwitch.operatorSwitch(operator);
-        System.out.println(answer);
+        getFirstNumber();
+        getOperator();
+        getUpdatedDisplay();
 
 
     }
