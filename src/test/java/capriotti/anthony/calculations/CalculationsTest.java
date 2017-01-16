@@ -43,9 +43,23 @@ public class CalculationsTest {
     @Test
     public void exponentsTest(){
         double expected = 9.0;
-        double actual = calculations.exponent(3.0d, 2.0d);
+        double actual = calculations.power(3.0d, 2.0d);
 
     }
-
+    @Test
+    public void squaredTest(){
+        double expected = 25.0d;
+        double actual = calculations.squared(5.0);
+    }
+    @Test
+    public void squareRootTest(){
+        double expected = 5.0d;
+        double actual = calculations.squareRoot(25.0d);
+    }
+    @Test
+    public void absoluteValue(){
+        double expected = 5.0d;
+        double actual = calculations.absoluteValue(-5.0d);
+    }
 
 }

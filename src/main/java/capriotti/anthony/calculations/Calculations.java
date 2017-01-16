@@ -20,11 +20,21 @@ public class Calculations {
     public static double division(double firstNumber, double secondNumber){
         if(secondNumber == 0){
             System.out.println("Error cannot divide by 0");
+            getUpdatedDisplay();
         }
-        return answer = firstNumber / secondNumber;
-    }
-    public static double exponent(double firstNumber, double secondNumber){
+            return answer = firstNumber / secondNumber;
+        }
+    public static double power(double firstNumber, double secondNumber){
         return answer = Math.pow(firstNumber, secondNumber);
+    }
+    public static double squared(double firstNumber){
+        return answer= firstNumber * firstNumber;
+    }
+    public static double squareRoot(double firstNumber){
+        return answer = Math.sqrt(firstNumber);
+    }
+    public static double absoluteValue(double firstNumber){
+        return answer = Math.abs(firstNumber);
     }
 
 

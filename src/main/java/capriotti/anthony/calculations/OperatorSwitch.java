@@ -35,11 +35,26 @@ public class OperatorSwitch {
                 calculations.division(first, second);
                 getUpdatedDisplay();
                 break;
-            case "Exponent":
+            case "Power":
                 UserInput.getSecondNumber();
-                calculations.exponent(first, second);
+                calculations.power(first, second);
                 getUpdatedDisplay();
                 break;
+            case "Squared":
+                calculations.squared(first);
+                getUpdatedDisplay();
+                break;
+            case "Square Root":
+                calculations.squareRoot(first);
+                getUpdatedDisplay();
+                break;
+            case "Abs":
+                calculations.absoluteValue(first);
+                getUpdatedDisplay();;
+                break;
+
+
+
             default:
                 System.out.println("You didn't say the magic word");
                 getOperator();

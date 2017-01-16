@@ -9,7 +9,10 @@ import static capriotti.anthony.calculations.UserInput.*;
  */
 public class Main {
     public static void main (String[] args){
+        System.out.println("Good morning dave");
+        System.out.println("");
 
+        setInitialDisplay();
         getFirstNumber();
         getOperator();
         getUpdatedDisplay();
