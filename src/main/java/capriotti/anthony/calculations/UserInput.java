@@ -16,6 +16,9 @@ public class UserInput {
     public static void setInitialDisplay(){
         UserInput.first = 0.0d;
         System.out.println(first);
+        getFirstNumber();
+        getOperator();
+        getUpdatedDisplay();
     }
 //first number in equation
     public static void getFirstNumber () {

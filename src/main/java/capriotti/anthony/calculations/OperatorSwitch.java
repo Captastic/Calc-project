@@ -10,61 +10,61 @@ public class OperatorSwitch {
 
     public static void operatorSwitch(String choice){
 
-        switch (choice){
-            case "Clear":
+        switch (choice.toUpperCase()){
+            case "CLEAR":
                 getFirstNumber();
                 getOperator();
                 break;
-            case "Add":
+            case "ADD":
                 UserInput.getSecondNumber();
                 calculations.addition(first, second);
                 getUpdatedDisplay();
                 break;
-            case "Subtract":
+            case "SUBTRACT":
                 UserInput.getSecondNumber();
                 calculations.subtraction(first, second);
                 getUpdatedDisplay();
                 break;
-            case "Multiply":
+            case "MULTIPLY":
                 UserInput.getSecondNumber();
                 calculations.multiplication(first, second);
                 getUpdatedDisplay();
                 break;
-            case "Divide":
+            case "DIVIDE":
                 UserInput.getSecondNumber();
                 calculations.division(first, second);
                 getUpdatedDisplay();
                 break;
-            case "Power":
+            case "POWER":
                 UserInput.getSecondNumber();
                 calculations.power(first, second);
                 getUpdatedDisplay();
                 break;
-            case "Squared":
+            case "SQUARE":
                 calculations.squared(first);
                 getUpdatedDisplay();
                 break;
-            case "Square Root":
+            case "SQUARE ROOT":
                 calculations.squareRoot(first);
                 getUpdatedDisplay();
                 break;
-            case "Absolute":
+            case "ABSOLUTE":
                 calculations.absoluteValue(first);
                 getUpdatedDisplay();
                 break;
-            case "Inverse":
+            case "INVERSE":
                 calculations.inverse(first);
                 getUpdatedDisplay();
                 break;
-            case "Sine":
+            case "SINE":
                 calculations.sine(first);
                 getUpdatedDisplay();
                 break;
-            case "Cosine":
+            case "COSINE":
                 calculations.cosine(first);
                 getUpdatedDisplay();;
                 break;
-            case "Tangent":
+            case "TANGENT":
                 calculations.tangent(first);
                 getUpdatedDisplay();
                 break;

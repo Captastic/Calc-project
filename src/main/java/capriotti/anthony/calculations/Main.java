@@ -18,10 +18,5 @@ public class Main {
         System.out.println("");
 
         setInitialDisplay();
-        getFirstNumber();
-        getOperator();
-        getUpdatedDisplay();
-
-
     }
 }
